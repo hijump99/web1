@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> jimins.com </title>
+  <style>
+    a{
+      color:black;
+    }
+    footer{
+     text-align:center;
+   }
+    h1{
+      text-align:center;color:orange;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ul{
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    li{
+      font-size:18px;
+    }
+    h3{
+      color:red;
+    }
+    h4 a{
+      color:red;
+    }
+    #grid{
+      display:grid;
+      grid-template-columns:150px 1fr;
+    }
+    #grid ul{
+      padding-left:23px;
+      padding-bottom:80px;
+    }
+    #grid #description{
+      padding-left:12px
+    }
+    @media(max-width:700px){
+      #grid{
+        display:block;
+      }
+      ul{
+        border-right:none;
+      }
+      h1{
+        border-bottom:none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="jimins.html">지민상회</a></h1>
+  </header>
+
+<div id="grid">
+
+ <ul>
+   <li><a href="청포도.html">청포도</a></li>
+   <li><a href="아보카도.html">아보카도</a></li>
+   <li><a href="딸기.html">딸기</a></li>
+ </ul>
+
+    <div id="description">
+      <h3>딸기</h3>
+      <p>특유의 단맛과 상큼함, 부드러움의 조화가 좋은 편이다. 뿐만 아니라 건강에도 좋은 편으로, 100g당 비타민C 함유량이 62mg으로 레몬보다 높다. 달지만 실제 당의 양은 훨씬 적다.</p>
+      <h4><a href="http://display.cjmall.com/p/item/48077708?gclid=Cj0KCQiAsdHhBRCwARIsAAhRhsm_c3MhCN9-RM6AVxhuBl3FDvdMVD3j5Mg93BB9Co0OY7CtJQAKLvMaAqv8EALw_wcB" target="_blank" title="딸기는 맛있엉!">맛있는 딸기 주문하기!</a></h4>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+  <footer>Copyright @bogyoi</footer>
+</body>
+</html>
